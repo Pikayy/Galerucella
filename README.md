@@ -13,6 +13,7 @@ Galerucella spp (leaf beetle species) genomes project (Yang et al., 2021)
       * [Ab-initio training](#ab_initio_training)
       * [MAKER ab-initio evidence-driven](maker_ab_initio_evidence_driven)
       * [Functional annotation](functional_annotation)
+      * [Other](other)
 
 ---------------------------
 
@@ -74,3 +75,7 @@ Results have been collected from MAKER output folder using `gaas_maker_merge_out
 The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
 
 Commit used for this study was `3a4d29a20d8ea261f7e766882547f754b06d1e2b`
+
+### Other
+
+The tool GFF toolkit [AGAT](https://github.com/NBISweden/AGAT) has been used to generate the statistics of the different annotations. It is also used by the `gaas_maker_merge_outputs_from_datastore.pl` script and by `AbinitioTraining` and `FunctionalAnnotation` nextflow pipelines.
