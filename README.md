@@ -28,7 +28,12 @@ Scripts for Genome assemblies is available [here](./commandline_genome_assembly_
 
 ### Repeat library
 
-Protocol to prepare the repeat library is available [here](https://www.biostars.org/p/411101/#411101)
+Protocol to prepare the repeat library is available [here](https://www.biostars.org/p/411101/#411101).
+
+**Results:**. 
+[galerucella_calmariensis](./galerucella_calmariensis/repeat_lib.fa)
+[galerucella_pusilla](./galerucella_pusilla/repeat_lib.fa)
+[galerucella_tenella](./galerucella_tenella/repeat_lib.fa)
 
 ### MAKER evidence-based
 
@@ -48,6 +53,6 @@ Protocol to train SNAP is available [here](./snap_training.md).
 
 ### Functional annotation
 
-The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow)
+The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
 
 Commit used for this study was `3a4d29a20d8ea261f7e766882547f754b06d1e2b`
