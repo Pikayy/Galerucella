@@ -28,20 +28,26 @@ Scripts for Genome assemblies is available [here](./commandline_genome_assembly_
 
 ### Repeat library
 
+Protocol to prepare the repeat library is available [here](https://www.biostars.org/p/411101/#411101)
+
 ### MAKER evidence-based
 
 ### Ab-initio training
 
 #### Augustus
 
-commit used for abinitio training: e1a0648c90331a8ab9170de643a0b7d579278f24
+Augustus has been trained using the NBIS `AbinitioTraining` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
+
+Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 
 #### SNAP
 
-SNAP training ...
+Protocol to train SNAP is available [here](./snap_training.md).
 
 ### MAKER ab-initio evidence-driven
 
 ### Functional annotation
 
-commit used for functional annotation: 3a4d29a20d8ea261f7e766882547f754b06d1e2b
+The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow)
+
+Commit used for this study was `3a4d29a20d8ea261f7e766882547f754b06d1e2b`
