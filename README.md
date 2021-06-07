@@ -31,9 +31,9 @@ Scripts for Genome assemblies is available [here](./commandline_genome_assembly_
 Protocol to prepare the repeat library is available [here](https://www.biostars.org/p/411101/#411101).
 
 **Results:**  
-[galerucella_calmariensis](./annotation/galerucella_calmariensis/repeat_lib.fa)  
-[galerucella_pusilla](./annotation/galerucella_pusilla/repeat_lib.fa)  
-[galerucella_tenella](./annotation/galerucella_tenella/repeat_lib.fa)  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/repeat_lib.fa)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/repeat_lib.fa)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/repeat_lib.fa)  
 
 ### MAKER evidence-based
 
