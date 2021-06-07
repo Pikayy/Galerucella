@@ -26,6 +26,8 @@ Scripts for Genome assemblies is available [here](./commandline_genome_assembly_
 
 ## Annotation
 
+The three galerucella species were annotated following the same approach. The protocol of the different steps is described below.
+
 ### Repeat library
 
 Protocol to prepare the repeat library is available [here](https://www.biostars.org/p/411101/#411101).
@@ -37,11 +39,13 @@ Protocol to prepare the repeat library is available [here](https://www.biostars.
 
 ### MAKER evidence-based
 
-Gene annotation was performed using the MAKER package version 3.01.02 with the repeat library, the  protein and transcriptome data as described in the manuscript.  
+Gene annotation was performed using the MAKER package version 3.01.02 with the repeat library, the protein and transcriptome data as described in the manuscript.  
 The Maker parameter files used are available here:
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/MAKER/rc1)  
   * [galerucella_pusilla](./annotation/galerucella_pusilla/MAKER/rc1)  
   * [galerucella_tenella](./annotation/galerucella_tenella/MAKER/rc1)  
+
+Results have been collected from MAKER output folder using `gaas_maker_merge_outputs_from_datastore.pl` from [GAAS](https://github.com/NBISweden/GAAS).
 
 ### Ab-initio training
 
@@ -56,6 +60,14 @@ Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 Protocol to train SNAP is available [here](./snap_training.md).
 
 ### MAKER ab-initio evidence-driven
+
+Gene annotation was performed using the MAKER package version 3.01.02 with the repeat library, the protein, the transcriptome data and the abinitio hmm profiles as described in the manuscript.  
+The Maker parameter files used are available here:
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/MAKER/rc4)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/MAKER/rc4)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/MAKER/rc4)  
+
+Results have been collected from MAKER output folder using `gaas_maker_merge_outputs_from_datastore.pl` from [GAAS](https://github.com/NBISweden/GAAS).
 
 ### Functional annotation
 
