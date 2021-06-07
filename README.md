@@ -37,6 +37,12 @@ Protocol to prepare the repeat library is available [here](https://www.biostars.
 
 ### MAKER evidence-based
 
+Gene annotation was performed using the MAKER package version 3.01.02 with the repeat library, the  protein and transcriptome data as described in the manuscript.  
+The Maker parameter files used are available here:
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/MAKER/rc1)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/MAKER/rc1)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/MAKER/rc1)  
+
 ### Ab-initio training
 
 #### Augustus
