@@ -56,11 +56,27 @@ Augustus has been trained using the NBIS `AbinitioTraining` nextflow pipeline av
 
 Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 
+The parameters used to run the pipeline are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/augustus/params.confg)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/augustus/params.confg)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/augustus/params.confg)  
+
+
+The gff data used to train Augustus as well as the resulting profile are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/augustus/training/)  
+  * [galerucella_pusilla](./annotation/galerucella_calmariensis/abinitio_profiles/augustus/training/)  
+  * [galerucella_tenella](./annotation/galerucella_calmariensis/abinitio_profiles/augustus/training/) 
+
+The resulting profile are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/augustus/galerucella_calmariensis)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/augustus/galerucella_pusilla)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/augustus/galerucella_tenella)  
+
 #### SNAP
 
 Protocol to train SNAP is available [here](./snap_training.md).
 
-The resulting hmm profiles are available here:
+The results hmm profiles are available here:
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/snap)  
   * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/snap)  
   * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/snap)  
@@ -80,6 +96,11 @@ Results have been collected from MAKER output folder using `gaas_maker_merge_out
 The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
 
 Commit used for this study was `3a4d29a20d8ea261f7e766882547f754b06d1e2b`
+
+The parameters used to run the pipeline are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/functional_params.config)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/functional_params.config)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/functional_params.config)  
 
 ### Other
 
