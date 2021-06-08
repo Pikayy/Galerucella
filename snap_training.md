@@ -1,7 +1,7 @@
 ## Snap
 
 The input file used for training SNAP comes from the Ab-initio training pipeline output at the default location `results/BlastFilteredGFF/codingGeneFeatures.filter.longest_cds.complete.good_distance_blast-filtered.gff3` called `annotation.gff` in this protocol. 
-Those input file are accessible here:  
+Those input files are accessible here:  
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/snap)  
   * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/snap)  
   * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/snap) 
