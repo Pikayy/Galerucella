@@ -60,6 +60,11 @@ Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 
 Protocol to train SNAP is available [here](./snap_training.md).
 
+The resulting hmm profile are available here:
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/snap)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/snap)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/snap)  
+
 ### MAKER ab-initio evidence-driven
 
 Gene annotation was performed using the MAKER package version 3.01.02 with the repeat library, the protein, the transcriptome data and the abinitio hmm profiles as described in the manuscript.  
