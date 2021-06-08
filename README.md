@@ -57,14 +57,14 @@ Augustus has been trained using a set of carefully selected genes from the MAKER
 Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 
 The parameters used to run the pipeline are available here:  
-  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/params.confg)  
-  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/params.confg)  
-  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/params.confg)  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/augustus_training.config)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/augustus_training.config)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/augustus_training.config)  
 
 The resulting gff as well as the two subsets converted in .gbk used to train Augustus and assess the quality of the training are available here:  
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/training/)  
-  * [galerucella_pusilla](./annotation/galerucella_calmariensis/abinitio/augustus/training/)  
-  * [galerucella_tenella](./annotation/galerucella_calmariensis/abinitio/augustus/training/)
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/training/)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/training/)
 
 The final Augustus abinitio profiles are available here:  
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/galerucella_calmariensis)  
