@@ -1,6 +1,12 @@
 ## Snap
 
-The input file used for training SNAP comes from the Ab-initio training pipeline at the location `results/BlastFilteredGFF/codingGeneFeatures.filter.longest_cds.complete.good_distance_blast-filtered.gff3` called `annotation.gff` in this protocol. We also need the genome fasta file (genome.fa), and concatenate both files together using the following commands:
+The input file used for training SNAP comes from the Ab-initio training pipeline output at the default location `results/BlastFilteredGFF/codingGeneFeatures.filter.longest_cds.complete.good_distance_blast-filtered.gff3` called `annotation.gff` in this protocol. 
+Those input file are accessible here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/snap)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/snap)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/snap) 
+  
+Before to train SNAP we also need the genome fasta file (genome.fa), and concatenate the gff and fasta files together using the following commands:
 
 ```
 echo "##FASTA" >> annotation.gff
