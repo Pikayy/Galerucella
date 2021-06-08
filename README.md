@@ -52,18 +52,33 @@ Results have been collected from MAKER output folder using `gaas_maker_merge_out
 
 #### Augustus
 
-Augustus has been trained using the NBIS `AbinitioTraining` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
+Augustus has been trained using a set of carefully selected genes from the MAKER evidence-based annotation using the NBIS `AbinitioTraining` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
 
 Commit used for this study was `e1a0648c90331a8ab9170de643a0b7d579278f24`
 
+The parameters used to run the pipeline are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/augustus_training.config)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/augustus_training.config)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/augustus_training.config)  
+
+The resulting gff, the two subsets converted in .gbk format used to train Augustus and assess the quality of the training as well as the training log are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/training/)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/training/)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/training/)
+
+The final Augustus abinitio profiles are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/galerucella_calmariensis)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/galerucella_pusilla)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/galerucella_tenella)  
+
 #### SNAP
 
-Protocol to train SNAP is available [here](./snap_training.md).
+Protocol to train SNAP is available [here](./annotation/snap_training.md).
 
-The resulting hmm profiles are available here:
-  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio_profiles/snap)  
-  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio_profiles/snap)  
-  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio_profiles/snap)  
+The results hmm profiles are available here:
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/snap)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/snap)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/snap)  
 
 ### MAKER ab-initio evidence-driven
 
@@ -80,6 +95,11 @@ Results have been collected from MAKER output folder using `gaas_maker_merge_out
 The functional annotation has been performed using the NBIS `FunctionalAnnotation` nextflow pipeline available [here](https://github.com/NBISweden/pipelines-nextflow).
 
 Commit used for this study was `3a4d29a20d8ea261f7e766882547f754b06d1e2b`
+
+The parameters used to run the pipeline are available here:  
+  * [galerucella_calmariensis](./annotation/galerucella_calmariensis/functional_params.config)  
+  * [galerucella_pusilla](./annotation/galerucella_pusilla/functional_params.config)  
+  * [galerucella_tenella](./annotation/galerucella_tenella/functional_params.config)  
 
 ### Other
 
