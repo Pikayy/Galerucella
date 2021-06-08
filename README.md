@@ -61,7 +61,7 @@ The parameters used to run the pipeline are available here:
   * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/augustus_training.config)  
   * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/augustus_training.config)  
 
-The resulting gff as well as the two subsets converted in .gbk used to train Augustus and assess the quality of the training are available here:  
+The resulting gff, the two subsets converted in .gbk format used to train Augustus and assess the quality of the training as well as the training log are available here:  
   * [galerucella_calmariensis](./annotation/galerucella_calmariensis/abinitio/augustus/training/)  
   * [galerucella_pusilla](./annotation/galerucella_pusilla/abinitio/augustus/training/)  
   * [galerucella_tenella](./annotation/galerucella_tenella/abinitio/augustus/training/)
