@@ -16,7 +16,7 @@ Galerucella spp (leaf beetle species) genomes project (Yang et al., 2021)
       * [Other](other)
 
 ---------------------------
-222222222
+
 ## Foreword
 Here are presented information about assembly and annotation of closely related leaf beetle species (Galerucella spp).
 
